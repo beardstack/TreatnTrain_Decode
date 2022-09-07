@@ -12,7 +12,7 @@ I was able to capture those signals using a HackRF One :
 
 However there is too much latency in for the replay using the Hackrf and it would be easier and cheaper to use a yardstick one. 
 
-The fcc id of the transmitter is [RF7SI398](https://fccid.io/RF7SI398) and the Freq is 433.92MHZ
+The fcc id of the transmitter is [RF7SI398](https://fccid.io/RF7SI398) and the Freq is 433.92MHZ, the treat dispenser and the remote both have toggle switches for channels 1-4. There is no rolling codes but the modulation is currently unknown
 
 TODO:
 
