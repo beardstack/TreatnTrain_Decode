@@ -12,6 +12,8 @@ I was able to capture those signals using a HackRF One :
 
 However there is too much latency in for the replay using the Hackrf and it would be easier and cheaper to use a yardstick one. 
 
+The fcc id of the transmitter is [RF7SI398](https://fccid.io/RF7SI398) and the Freq is 433.92MHZ
+
 TODO:
 
 * [ ] Decode signals to HEX or BIN
