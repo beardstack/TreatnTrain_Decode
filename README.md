@@ -4,13 +4,14 @@
 
 Objective:
 
-To be able to use a [YardStick One](https://greatscottgadgets.com/yardstickone/) to control the dispensing of [Treat & Train™ Remote Reward Dog Trainer](https://store.petsafe.net/treat-train-remote-reward-dog-trainer) treats from a Linux machine
+To be able to use low cost transceivers e.g [YardStick One](https://greatscottgadgets.com/yardstickone/) or 
+[EvilCrowRF](https://github.com/joelsernamoreno/EvilCrowRF-V2/) to control the dispensing of [Treat & Train™ Remote Reward Dog Trainer](https://store.petsafe.net/treat-train-remote-reward-dog-trainer) treats from a Linux machine or microcontroller
 
-I was able to capture those signals using a HackRF One :
+The devices are designed to have toggle switches to determine what "channel" they respond to denoted 1-4 on the remote and dispenser, I was able to capture those signals using a HackRF One :
 * Raw Captures are in 01-04.raw
 * nogui_tx[1-4].py replays the captured signals
 
-However there is too much latency in for the replay using the Hackrf and it would be easier and cheaper to use a yardstick one. 
+However there is too much latency in the replay using the Hackrf and it would be easier and cheaper to use CC1101 modules.. 
 
 The fcc id of the transmitter is [RF7SI398](https://fccid.io/RF7SI398) and the Freq is 433.92MHZ, the treat dispenser and the remote both have toggle switches for channels 1-4. There is no rolling codes but the modulation is currently unknown
 
